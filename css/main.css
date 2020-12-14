@@ -9,4 +9,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+}
+
+#clickDiv {
+  width: 360px;
+  height: 360px;
+  background: url(../img/cookie-default.svg) no-repeat center top / cover;
+  opacity: .7;
+  cursor: pointer;
 }
