@@ -19,3 +19,8 @@ body {
   opacity: .7;
   cursor: pointer;
 }
+
+#clickDiv:active {
+  background-image: url(../img/cookie-clicked.svg);
+  transform: scale(.9);
+}
